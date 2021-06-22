@@ -17,17 +17,16 @@ Pod::Spec.new do |spec|
 
   spec.name         = "CrashHook"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of CrashHook."
+  spec.summary      = "CrashHook very good hahaha "
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "CrashHook"
 
-  spec.homepage     = "http://EXAMPLE/CrashHook"
+  spec.homepage     = "https://github.com/wangjian201314/CrashHook.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +37,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -79,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/CrashHook.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/wangjian201314/CrashHook.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
