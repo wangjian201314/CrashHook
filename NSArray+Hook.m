@@ -12,6 +12,7 @@
 
 @implementation NSArray (Hook)
 
+
 + (void)load {
     //__NSArrayI:不可变,2个或2以上元素  __NSArray0:空数组  __NSArrayM:可变  __NSSingleObjectArrayI:只有单个元素
 //    [array objectAtIndex:8]

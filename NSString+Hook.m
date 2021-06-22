@@ -11,6 +11,7 @@
 
 @implementation NSString (Hook)
 
+
 + (void)load {
     
     [SwizzledHelper SwizzledMethod:objc_getClass("__NSCFString") OriginalSelector:@selector(substringFromIndex:) newSelector:@selector(hook_substringFromIndex:)];

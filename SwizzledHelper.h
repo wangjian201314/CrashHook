@@ -11,9 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SwizzledHelper : NSObject
 
+
 + (void)SwizzledMethod:(Class)class OriginalSelector:(SEL)originalSelector newSelector:(SEL)newSelector;
 
-void shfhds(Class class, NSString *shdj);
 @end
 
 NS_ASSUME_NONNULL_END

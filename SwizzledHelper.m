@@ -35,8 +35,4 @@
        method_exchangeImplementations(newMethod, originalMethod);
 }
 
-void shfhds(Class class, NSString *shdj) {
-    
-}
-
 @end

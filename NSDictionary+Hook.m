@@ -11,6 +11,7 @@
 
 @implementation NSDictionary (Hook)
 
+
 + (void)load {
     
     [SwizzledHelper SwizzledMethod:objc_getClass("__NSPlaceholderDictionary") OriginalSelector:@selector(setObject:forKey:) newSelector:@selector(hook_setObject:forKey:)];
