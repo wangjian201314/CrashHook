@@ -1,0 +1,12 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CrashHook_Example' do
+  pod 'CrashHook', :path => '../'
+
+  target 'CrashHook_Tests' do
+    inherit! :search_paths
+
+  end
+end

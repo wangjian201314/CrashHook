@@ -1,0 +1,16 @@
+PODS:
+  - CrashHook (0.1.0)
+
+DEPENDENCIES:
+  - CrashHook (from `../`)
+
+EXTERNAL SOURCES:
+  CrashHook:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CrashHook: c65fd3caf4ad38063cea4ad10480d56a0429e2e1
+
+PODFILE CHECKSUM: e184fc8f913557d212b846b591834d489f81f664
+
+COCOAPODS: 1.10.1
