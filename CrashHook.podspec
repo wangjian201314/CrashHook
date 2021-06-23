@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'CrashHook/Classes/**/*'
+  s.source_files = "CrashHook/Classes/*.{h,m}"
   
   # s.resource_bundles = {
   #   'CrashHook' => ['CrashHook/Assets/*.png']
