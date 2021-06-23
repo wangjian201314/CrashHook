@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'WJCrashHook'
-  s.version          = '1.0.1'
+  s.name             = 'CrashHook'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of CrashHook.'
   s.homepage         = 'https://github.com/wangjian201314/CrashHook'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
