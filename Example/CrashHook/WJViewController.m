@@ -10,6 +10,8 @@
 
 @interface WJViewController ()
 
+- (void)push;
+
 @end
 
 @implementation WJViewController
@@ -18,12 +20,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [self push];//测试方法没实现的crash
 }
 
 @end

@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "2576175431@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 3QH4Q57SL3;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 67499EAEFA84E129D76D80F6 /* Pods-CrashHook_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3QH4Q57SL3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashHook/CrashHook-Prefix.pch";
 				INFOPLIST_FILE = "CrashHook/CrashHook-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 6A2D8A0495D8420F15A9E05C /* Pods-CrashHook_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3QH4Q57SL3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CrashHook/CrashHook-Prefix.pch";
 				INFOPLIST_FILE = "CrashHook/CrashHook-Info.plist";
