@@ -12,6 +12,7 @@
 
 #import "NSArray+Hook.h"
 #import "NSDictionary+Hook.h"
+#import "NSObject+Hook.h"
 #import "NSString+Hook.h"
 #import "SwizzledHelper.h"
 
