@@ -15,6 +15,7 @@
 #import "NSObject+Hook.h"
 #import "NSString+Hook.h"
 #import "SwizzledHelper.h"
+#import "TestObject.h"
 
 FOUNDATION_EXPORT double CrashHookVersionNumber;
 FOUNDATION_EXPORT const unsigned char CrashHookVersionString[];
