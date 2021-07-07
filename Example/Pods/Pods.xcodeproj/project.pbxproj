@@ -7,87 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C59A84BE622D6DCDF1A07FFD49DAF8F /* NSArray+Hook.h in Headers */ = {isa = PBXBuildFile; fileRef = 15F6D25F8179A0BF5A0EF61FC05CD784 /* NSArray+Hook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B55AA9B34F6A4854C0E4BED087F9790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1BF091387A369902A84111730063550F /* Pods-CrashHook_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECBA6D07DCAA10E24E986267FC4246B /* Pods-CrashHook_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		278225F6C140731E40F12B1169DFFE34 /* NSArray+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = D5312B950A07F766C3876007141A89E6 /* NSArray+Hook.m */; };
 		29079FD2E5FA5442C4399BBD9965891E /* Pods-CrashHook_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85060FD21D98A993EBEE7267F4AA5B09 /* Pods-CrashHook_Tests-dummy.m */; };
-		2966482EB4FB0A540425B020E6599192 /* CrashHook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0F9A95806A7080109D5C8A188B27D1 /* CrashHook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D93B9D7B571D158A9F1E4D0CBD91BE0 /* NSString+Hook.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C11E74BD2D9399681DE69D8C875E7B1 /* NSString+Hook.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B172C6207BDA4228556531C5FEFCDF5 /* SwizzledHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4670D59A053851985B083E7872B5D5 /* SwizzledHelper.m */; };
-		8B71A601C89CED2A7D6535BC17E14FFA /* NSDictionary+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A7BB44E1A608A3EC8E649568311D76 /* NSDictionary+Hook.m */; };
-		A8D8F567947785A6E4A68DEB494BD9C0 /* CrashHook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 070056A5DF6C48C16400B88D608416BE /* CrashHook-dummy.m */; };
-		B4BDE54F832BF1C7233666D7D5D26206 /* NSObject+Hook.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BF6715CF3B2F16438092A2DACE37581 /* NSObject+Hook.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB8D03E16C0F3E8CC660CC8AEF8BA598 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2DCF5B7B606984D2AC5613EF29262536 /* NSArray+Hook.h in Headers */ = {isa = PBXBuildFile; fileRef = 429DCE70172193001090DA026577EA11 /* NSArray+Hook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AB87FAFFD9917B77CEBF84E70C9F4FC /* NSDictionary+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F6C04684E6D447F028BCD2EC1E2A14 /* NSDictionary+Hook.m */; };
+		6AD9FA0884B5032C689E342D4054FAB8 /* SwizzledHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F38EFFC72FA1D7AEB674DD7609EC39 /* SwizzledHelper.m */; };
+		6C019C97AC118FA9FBB594B4C7FB2940 /* NSString+Hook.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C750170A31CCE69B90C878C296D1473 /* NSString+Hook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CCBACEAED2630FD1BF97B58FEA7FDBD /* NSObject+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BAD8530DA8AA31C96E8FA1DDFB977B /* NSObject+Hook.m */; };
+		8B7DC6BA669B8DE61AAD56C7FFB0583A /* SwizzledHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCDBF600BD6F85CB32BA8201A8AF053 /* SwizzledHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95C369F0EDC375AF0079D5A34422B7DA /* NSString+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = F65FD2EC86D98CE0D12BC18978665855 /* NSString+Hook.m */; };
+		A5E42E62748810450411458E60C83D88 /* CrashHook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD9712A5E53BA841A8D1989C9E5D320A /* CrashHook-dummy.m */; };
+		BA15ADD5C15AB1C83E713D6E1FCC2233 /* CrashHook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C135433E73929E40E7E0248B037A0318 /* CrashHook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB7030BB2EA621C4404DE8CDA37D4159 /* NSDictionary+Hook.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4841CB4897912783DF29F7ECE24775 /* NSDictionary+Hook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5F47A0EC4F7041B3DEB7204FEB726D8 /* Pods-CrashHook_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DC686D073CBC75CDDAFC4BDD04B6F3 /* Pods-CrashHook_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7989754B7D0E1B93F966D2089AC14B9 /* NSDictionary+Hook.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BFF542BB1AF240F57D3A666AABD43CC /* NSDictionary+Hook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1EAE8297CF14DC4D6A71762A6756BD9 /* NSArray+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DF1095D33B75B4BD88E345DD493295 /* NSArray+Hook.m */; };
 		E869E7966F43058F8C9436CBDB6104B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		EA1C05D735286635247B699988F51379 /* NSString+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 429B74BFDF3B7D9B644BC95AB80DA4C4 /* NSString+Hook.m */; };
+		EC1C34BFBC8B4A46FC3992E0EA57406D /* NSObject+Hook.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C4DEF933A081D0E82FB782815C8B30 /* NSObject+Hook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC31BE7CA339CC6D05CD5CA1F5B5D32D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		EC9ADAF27524FD3692A946CD519FD2C2 /* SwizzledHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 82BEB7E1163DD38F0D6B94F0A701E8A9 /* SwizzledHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ECCD15CCE8A89DAF12B0C99F2B395115 /* NSObject+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = C68461A202F1E6E641ABC99A1696E2B9 /* NSObject+Hook.m */; };
 		F2AB2689BC24F50F39FB5C459AACE2B6 /* Pods-CrashHook_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7892D09754957FA0C44D86881F343DB6 /* Pods-CrashHook_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		470B59EC4DB3AFEADD0B57A788A5296E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D3926348953F630862EC678AB40E6F44;
-			remoteInfo = "Pods-CrashHook_Example";
-		};
-		8B100F81FDB94447F5639DE3F9FCD113 /* PBXContainerItemProxy */ = {
+		D75F59257D013E4DD3E087169C25598B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E282F202FDAD3AAED2E0B979C4C45943;
 			remoteInfo = CrashHook;
 		};
+		F45BBBD94BA92DFB347B5D25064F8111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3926348953F630862EC678AB40E6F44;
+			remoteInfo = "Pods-CrashHook_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		06E2100CB7A94033532D6C5DEE7799D5 /* Pods-CrashHook_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrashHook_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		070056A5DF6C48C16400B88D608416BE /* CrashHook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CrashHook-dummy.m"; sourceTree = "<group>"; };
-		15F6D25F8179A0BF5A0EF61FC05CD784 /* NSArray+Hook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Hook.h"; path = "CrashHook/Classes/NSArray+Hook.h"; sourceTree = "<group>"; };
+		0D94A298B0CA1E7F2A269D7569A0187C /* CrashHook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CrashHook.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1835F1215461D4352CAADE2DA31A3F13 /* CrashHook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CrashHook-prefix.pch"; sourceTree = "<group>"; };
 		1B3ECBE5ECB0CDB7A2008C39C55BC333 /* Pods-CrashHook_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrashHook_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1EE42CCFB725F19F2BC6722F8DA659C2 /* Pods-CrashHook_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrashHook_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2BFF542BB1AF240F57D3A666AABD43CC /* NSDictionary+Hook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Hook.h"; path = "CrashHook/Classes/NSDictionary+Hook.h"; sourceTree = "<group>"; };
-		3A54E489C0A1B2F1902FC13D3D4BDABD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2FDF5C184DA22618B1F2E684ED654066 /* CrashHook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CrashHook.modulemap; sourceTree = "<group>"; };
 		3B4183736219AA82092B36B75E49A5CE /* Pods-CrashHook_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrashHook_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3C11E74BD2D9399681DE69D8C875E7B1 /* NSString+Hook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Hook.h"; path = "CrashHook/Classes/NSString+Hook.h"; sourceTree = "<group>"; };
+		3BCDBF600BD6F85CB32BA8201A8AF053 /* SwizzledHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwizzledHelper.h; path = CrashHook/Classes/SwizzledHelper.h; sourceTree = "<group>"; };
 		407D2EF53D18E87AE54BA268F706D55E /* Pods-CrashHook_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrashHook_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		429B74BFDF3B7D9B644BC95AB80DA4C4 /* NSString+Hook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Hook.m"; path = "CrashHook/Classes/NSString+Hook.m"; sourceTree = "<group>"; };
-		4477273BAF52A9E2AA827E3633CCBF79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		429DCE70172193001090DA026577EA11 /* NSArray+Hook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Hook.h"; path = "CrashHook/Classes/NSArray+Hook.h"; sourceTree = "<group>"; };
+		4C750170A31CCE69B90C878C296D1473 /* NSString+Hook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Hook.h"; path = "CrashHook/Classes/NSString+Hook.h"; sourceTree = "<group>"; };
 		4C91AF7C15F807F655071CC6269549D2 /* Pods-CrashHook_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrashHook_Example-Info.plist"; sourceTree = "<group>"; };
-		4F0F9A95806A7080109D5C8A188B27D1 /* CrashHook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CrashHook-umbrella.h"; sourceTree = "<group>"; };
 		5009BB5BA83E0F0D56A2228693568A3F /* Pods-CrashHook_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrashHook_Tests-Info.plist"; sourceTree = "<group>"; };
-		52C02BD9028B0828CEAFB8A7AE797559 /* CrashHook.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CrashHook.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5BF6715CF3B2F16438092A2DACE37581 /* NSObject+Hook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Hook.h"; path = "CrashHook/Classes/NSObject+Hook.h"; sourceTree = "<group>"; };
-		5C4670D59A053851985B083E7872B5D5 /* SwizzledHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwizzledHelper.m; path = CrashHook/Classes/SwizzledHelper.m; sourceTree = "<group>"; };
-		637A65459C9E76BB2B666FCBBAFE9DC6 /* CrashHook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CrashHook-Info.plist"; sourceTree = "<group>"; };
+		60C6F9189FCAB9517C7A4207F507399E /* CrashHook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CrashHook.debug.xcconfig; sourceTree = "<group>"; };
+		6139B311A7A39B8AFBBC612814AED6EE /* CrashHook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CrashHook.release.xcconfig; sourceTree = "<group>"; };
+		62DF1095D33B75B4BD88E345DD493295 /* NSArray+Hook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Hook.m"; path = "CrashHook/Classes/NSArray+Hook.m"; sourceTree = "<group>"; };
+		63F38EFFC72FA1D7AEB674DD7609EC39 /* SwizzledHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwizzledHelper.m; path = CrashHook/Classes/SwizzledHelper.m; sourceTree = "<group>"; };
+		6B0A303515BF19C2508EBAC2AD57AE92 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6ECBA6D07DCAA10E24E986267FC4246B /* Pods-CrashHook_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrashHook_Example-umbrella.h"; sourceTree = "<group>"; };
-		6FD4E06BD8CB57C281DF0862D0CDD150 /* Pods_CrashHook_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashHook_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		707C648C553A8EFB2EEA15043D957C8B /* CrashHook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CrashHook.debug.xcconfig; sourceTree = "<group>"; };
-		71A7BB44E1A608A3EC8E649568311D76 /* NSDictionary+Hook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Hook.m"; path = "CrashHook/Classes/NSDictionary+Hook.m"; sourceTree = "<group>"; };
+		6FD4E06BD8CB57C281DF0862D0CDD150 /* Pods_CrashHook_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrashHook_Example.framework; path = "Pods-CrashHook_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FEA92356B14B8248B2AA7912FBA2946 /* CrashHook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CrashHook-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7892D09754957FA0C44D86881F343DB6 /* Pods-CrashHook_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrashHook_Example-dummy.m"; sourceTree = "<group>"; };
 		79DC686D073CBC75CDDAFC4BDD04B6F3 /* Pods-CrashHook_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrashHook_Tests-umbrella.h"; sourceTree = "<group>"; };
-		82BEB7E1163DD38F0D6B94F0A701E8A9 /* SwizzledHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwizzledHelper.h; path = CrashHook/Classes/SwizzledHelper.h; sourceTree = "<group>"; };
+		83BAD8530DA8AA31C96E8FA1DDFB977B /* NSObject+Hook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Hook.m"; path = "CrashHook/Classes/NSObject+Hook.m"; sourceTree = "<group>"; };
 		85060FD21D98A993EBEE7267F4AA5B09 /* Pods-CrashHook_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrashHook_Tests-dummy.m"; sourceTree = "<group>"; };
 		8FE917CB00BF19734B92EE6CD3F9328A /* Pods-CrashHook_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CrashHook_Example.modulemap"; sourceTree = "<group>"; };
 		9A6318FC8929EB71E2A59D2001672052 /* Pods-CrashHook_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrashHook_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1ABE21055C04C3CA211BEA7D321D28C /* Pods-CrashHook_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrashHook_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B12A6329896E70C40DF2994B9A426C36 /* CrashHook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CrashHook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C15E6C277C88541121AAE6BF2FAB2C16 /* CrashHook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CrashHook.release.xcconfig; sourceTree = "<group>"; };
-		C68461A202F1E6E641ABC99A1696E2B9 /* NSObject+Hook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Hook.m"; path = "CrashHook/Classes/NSObject+Hook.m"; sourceTree = "<group>"; };
+		A8F6C04684E6D447F028BCD2EC1E2A14 /* NSDictionary+Hook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Hook.m"; path = "CrashHook/Classes/NSDictionary+Hook.m"; sourceTree = "<group>"; };
+		AD9712A5E53BA841A8D1989C9E5D320A /* CrashHook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CrashHook-dummy.m"; sourceTree = "<group>"; };
+		B12A6329896E70C40DF2994B9A426C36 /* CrashHook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CrashHook.framework; path = CrashHook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4841CB4897912783DF29F7ECE24775 /* NSDictionary+Hook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Hook.h"; path = "CrashHook/Classes/NSDictionary+Hook.h"; sourceTree = "<group>"; };
+		C135433E73929E40E7E0248B037A0318 /* CrashHook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CrashHook-umbrella.h"; sourceTree = "<group>"; };
 		CCE66C0A198F64DAE1A1341C17F32A4A /* Pods-CrashHook_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrashHook_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0C4DEF933A081D0E82FB782815C8B30 /* NSObject+Hook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Hook.h"; path = "CrashHook/Classes/NSObject+Hook.h"; sourceTree = "<group>"; };
 		D26E05F036B1F35FA723BC9203F329BA /* Pods-CrashHook_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CrashHook_Tests.modulemap"; sourceTree = "<group>"; };
-		D4F202E3D18A728C4E3FA21EBD6B9AF8 /* CrashHook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CrashHook.modulemap; sourceTree = "<group>"; };
-		D5312B950A07F766C3876007141A89E6 /* NSArray+Hook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Hook.m"; path = "CrashHook/Classes/NSArray+Hook.m"; sourceTree = "<group>"; };
-		E3B8CB71F67D55AF865C704E3C558A3A /* CrashHook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CrashHook-prefix.pch"; sourceTree = "<group>"; };
-		F2152FEB59404B852CAB9145AD328D1E /* Pods_CrashHook_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashHook_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2152FEB59404B852CAB9145AD328D1E /* Pods_CrashHook_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrashHook_Tests.framework; path = "Pods-CrashHook_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A55776B50C05053271858808FDCCBA /* Pods-CrashHook_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrashHook_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F65FD2EC86D98CE0D12BC18978665855 /* NSString+Hook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Hook.m"; path = "CrashHook/Classes/NSString+Hook.m"; sourceTree = "<group>"; };
+		FFC1698ECEA8CD7A35602F5B0E5D1722 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +99,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		497514271A903F669B105F5A27AD700E /* Frameworks */ = {
+		0C0ED01641EA2B98B88CCC7E1FE123B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB8D03E16C0F3E8CC660CC8AEF8BA598 /* Foundation.framework in Frameworks */,
+				1B55AA9B34F6A4854C0E4BED087F9790 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,21 +118,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08D410E8ADF3EFC12F8CA5185B66CD03 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D4F202E3D18A728C4E3FA21EBD6B9AF8 /* CrashHook.modulemap */,
-				070056A5DF6C48C16400B88D608416BE /* CrashHook-dummy.m */,
-				637A65459C9E76BB2B666FCBBAFE9DC6 /* CrashHook-Info.plist */,
-				E3B8CB71F67D55AF865C704E3C558A3A /* CrashHook-prefix.pch */,
-				4F0F9A95806A7080109D5C8A188B27D1 /* CrashHook-umbrella.h */,
-				707C648C553A8EFB2EEA15043D957C8B /* CrashHook.debug.xcconfig */,
-				C15E6C277C88541121AAE6BF2FAB2C16 /* CrashHook.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CrashHook";
-			sourceTree = "<group>";
-		};
 		0D063A14548FF5C7A260C4A92BB92A34 /* Pods-CrashHook_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,14 +134,24 @@
 			path = "Target Support Files/Pods-CrashHook_Tests";
 			sourceTree = "<group>";
 		};
-		3EB0BBA254421E0346C37C933FEC6E4B /* Pod */ = {
+		4EAE3702C5EEAD7CAFECE1BD1E50A5A3 /* CrashHook */ = {
 			isa = PBXGroup;
 			children = (
-				52C02BD9028B0828CEAFB8A7AE797559 /* CrashHook.podspec */,
-				3A54E489C0A1B2F1902FC13D3D4BDABD /* LICENSE */,
-				4477273BAF52A9E2AA827E3633CCBF79 /* README.md */,
+				429DCE70172193001090DA026577EA11 /* NSArray+Hook.h */,
+				62DF1095D33B75B4BD88E345DD493295 /* NSArray+Hook.m */,
+				BE4841CB4897912783DF29F7ECE24775 /* NSDictionary+Hook.h */,
+				A8F6C04684E6D447F028BCD2EC1E2A14 /* NSDictionary+Hook.m */,
+				D0C4DEF933A081D0E82FB782815C8B30 /* NSObject+Hook.h */,
+				83BAD8530DA8AA31C96E8FA1DDFB977B /* NSObject+Hook.m */,
+				4C750170A31CCE69B90C878C296D1473 /* NSString+Hook.h */,
+				F65FD2EC86D98CE0D12BC18978665855 /* NSString+Hook.m */,
+				3BCDBF600BD6F85CB32BA8201A8AF053 /* SwizzledHelper.h */,
+				63F38EFFC72FA1D7AEB674DD7609EC39 /* SwizzledHelper.m */,
+				EF9E4CF7230784866A8C520EEA8B90D1 /* Pod */,
+				8DD5875211D95F433D241CDFC54B72A0 /* Support Files */,
 			);
-			name = Pod;
+			name = CrashHook;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -184,6 +179,21 @@
 			path = "Target Support Files/Pods-CrashHook_Example";
 			sourceTree = "<group>";
 		};
+		8DD5875211D95F433D241CDFC54B72A0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FDF5C184DA22618B1F2E684ED654066 /* CrashHook.modulemap */,
+				AD9712A5E53BA841A8D1989C9E5D320A /* CrashHook-dummy.m */,
+				6FEA92356B14B8248B2AA7912FBA2946 /* CrashHook-Info.plist */,
+				1835F1215461D4352CAADE2DA31A3F13 /* CrashHook-prefix.pch */,
+				C135433E73929E40E7E0248B037A0318 /* CrashHook-umbrella.h */,
+				60C6F9189FCAB9517C7A4207F507399E /* CrashHook.debug.xcconfig */,
+				6139B311A7A39B8AFBBC612814AED6EE /* CrashHook.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CrashHook";
+			sourceTree = "<group>";
+		};
 		B08396F2ACDDAB8EB20622AB06516848 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,39 +204,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C7EB6EA57B5076C4AD872D1390E7C3A2 /* CrashHook */ = {
-			isa = PBXGroup;
-			children = (
-				15F6D25F8179A0BF5A0EF61FC05CD784 /* NSArray+Hook.h */,
-				D5312B950A07F766C3876007141A89E6 /* NSArray+Hook.m */,
-				2BFF542BB1AF240F57D3A666AABD43CC /* NSDictionary+Hook.h */,
-				71A7BB44E1A608A3EC8E649568311D76 /* NSDictionary+Hook.m */,
-				5BF6715CF3B2F16438092A2DACE37581 /* NSObject+Hook.h */,
-				C68461A202F1E6E641ABC99A1696E2B9 /* NSObject+Hook.m */,
-				3C11E74BD2D9399681DE69D8C875E7B1 /* NSString+Hook.h */,
-				429B74BFDF3B7D9B644BC95AB80DA4C4 /* NSString+Hook.m */,
-				82BEB7E1163DD38F0D6B94F0A701E8A9 /* SwizzledHelper.h */,
-				5C4670D59A053851985B083E7872B5D5 /* SwizzledHelper.m */,
-				3EB0BBA254421E0346C37C933FEC6E4B /* Pod */,
-				08D410E8ADF3EFC12F8CA5185B66CD03 /* Support Files */,
-			);
-			name = CrashHook;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		CDA6F8F2662346F077D40D3580C86B39 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C7EB6EA57B5076C4AD872D1390E7C3A2 /* CrashHook */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CDA6F8F2662346F077D40D3580C86B39 /* Development Pods */,
+				F2DB0E9BD3C0E33719D22E07C71A986C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				B08396F2ACDDAB8EB20622AB06516848 /* Products */,
 				F7C24CBBCB631677BA1F7B370FBC7C0C /* Targets Support Files */,
@@ -239,6 +221,24 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF9E4CF7230784866A8C520EEA8B90D1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0D94A298B0CA1E7F2A269D7569A0187C /* CrashHook.podspec */,
+				6B0A303515BF19C2508EBAC2AD57AE92 /* LICENSE */,
+				FFC1698ECEA8CD7A35602F5B0E5D1722 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F2DB0E9BD3C0E33719D22E07C71A986C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EAE3702C5EEAD7CAFECE1BD1E50A5A3 /* CrashHook */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		F7C24CBBCB631677BA1F7B370FBC7C0C /* Targets Support Files */ = {
@@ -261,16 +261,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74D4714CA2E776A58CA2C068BA9BE300 /* Headers */ = {
+		E21A4526448D25C6AC50AFF00C6BD03A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2966482EB4FB0A540425B020E6599192 /* CrashHook-umbrella.h in Headers */,
-				0C59A84BE622D6DCDF1A07FFD49DAF8F /* NSArray+Hook.h in Headers */,
-				D7989754B7D0E1B93F966D2089AC14B9 /* NSDictionary+Hook.h in Headers */,
-				B4BDE54F832BF1C7233666D7D5D26206 /* NSObject+Hook.h in Headers */,
-				5D93B9D7B571D158A9F1E4D0CBD91BE0 /* NSString+Hook.h in Headers */,
-				EC9ADAF27524FD3692A946CD519FD2C2 /* SwizzledHelper.h in Headers */,
+				BA15ADD5C15AB1C83E713D6E1FCC2233 /* CrashHook-umbrella.h in Headers */,
+				2DCF5B7B606984D2AC5613EF29262536 /* NSArray+Hook.h in Headers */,
+				CB7030BB2EA621C4404DE8CDA37D4159 /* NSDictionary+Hook.h in Headers */,
+				EC1C34BFBC8B4A46FC3992E0EA57406D /* NSObject+Hook.h in Headers */,
+				6C019C97AC118FA9FBB594B4C7FB2940 /* NSString+Hook.h in Headers */,
+				8B7DC6BA669B8DE61AAD56C7FFB0583A /* SwizzledHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +297,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9788975CBF73BF2115F0DE9CAB571BA0 /* PBXTargetDependency */,
+				8BA1161D8D98A0AC48A20B11FBD841FC /* PBXTargetDependency */,
 			);
 			name = "Pods-CrashHook_Tests";
 			productName = "Pods-CrashHook_Tests";
@@ -316,7 +316,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				22F43B5E36064B46EE96750DF0DF9ADA /* PBXTargetDependency */,
+				9DE78D64723B487504CCE105F07AD436 /* PBXTargetDependency */,
 			);
 			name = "Pods-CrashHook_Example";
 			productName = "Pods-CrashHook_Example";
@@ -325,12 +325,12 @@
 		};
 		E282F202FDAD3AAED2E0B979C4C45943 /* CrashHook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F90CBDAC14983BA23FA0CD936349247F /* Build configuration list for PBXNativeTarget "CrashHook" */;
+			buildConfigurationList = 5EDFBE035B179C3DE292884F6E85EB08 /* Build configuration list for PBXNativeTarget "CrashHook" */;
 			buildPhases = (
-				74D4714CA2E776A58CA2C068BA9BE300 /* Headers */,
-				D481153E3EB2389EAF682D259BECE2DD /* Sources */,
-				497514271A903F669B105F5A27AD700E /* Frameworks */,
-				B9C66786A0A29CE911B967084137C080 /* Resources */,
+				E21A4526448D25C6AC50AFF00C6BD03A /* Headers */,
+				14260624AF17929505D9F1CF9B84E6EE /* Sources */,
+				0C0ED01641EA2B98B88CCC7E1FE123B8 /* Frameworks */,
+				1D3D75C9DAEE5073E1303A4F11A8F328 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -371,14 +371,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B27C0F68E7F2A7CADFDD7EF9F78A8272 /* Resources */ = {
+		1D3D75C9DAEE5073E1303A4F11A8F328 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9C66786A0A29CE911B967084137C080 /* Resources */ = {
+		B27C0F68E7F2A7CADFDD7EF9F78A8272 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -403,6 +403,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		14260624AF17929505D9F1CF9B84E6EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E42E62748810450411458E60C83D88 /* CrashHook-dummy.m in Sources */,
+				E1EAE8297CF14DC4D6A71762A6756BD9 /* NSArray+Hook.m in Sources */,
+				3AB87FAFFD9917B77CEBF84E70C9F4FC /* NSDictionary+Hook.m in Sources */,
+				6CCBACEAED2630FD1BF97B58FEA7FDBD /* NSObject+Hook.m in Sources */,
+				95C369F0EDC375AF0079D5A34422B7DA /* NSString+Hook.m in Sources */,
+				6AD9FA0884B5032C689E342D4054FAB8 /* SwizzledHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		751C3078E0E878DD104476908CEB8604 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -411,33 +424,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D481153E3EB2389EAF682D259BECE2DD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A8D8F567947785A6E4A68DEB494BD9C0 /* CrashHook-dummy.m in Sources */,
-				278225F6C140731E40F12B1169DFFE34 /* NSArray+Hook.m in Sources */,
-				8B71A601C89CED2A7D6535BC17E14FFA /* NSDictionary+Hook.m in Sources */,
-				ECCD15CCE8A89DAF12B0C99F2B395115 /* NSObject+Hook.m in Sources */,
-				EA1C05D735286635247B699988F51379 /* NSString+Hook.m in Sources */,
-				6B172C6207BDA4228556531C5FEFCDF5 /* SwizzledHelper.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		22F43B5E36064B46EE96750DF0DF9ADA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CrashHook;
-			target = E282F202FDAD3AAED2E0B979C4C45943 /* CrashHook */;
-			targetProxy = 8B100F81FDB94447F5639DE3F9FCD113 /* PBXContainerItemProxy */;
-		};
-		9788975CBF73BF2115F0DE9CAB571BA0 /* PBXTargetDependency */ = {
+		8BA1161D8D98A0AC48A20B11FBD841FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CrashHook_Example";
 			target = D3926348953F630862EC678AB40E6F44 /* Pods-CrashHook_Example */;
-			targetProxy = 470B59EC4DB3AFEADD0B57A788A5296E /* PBXContainerItemProxy */;
+			targetProxy = F45BBBD94BA92DFB347B5D25064F8111 /* PBXContainerItemProxy */;
+		};
+		9DE78D64723B487504CCE105F07AD436 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CrashHook;
+			target = E282F202FDAD3AAED2E0B979C4C45943 /* CrashHook */;
+			targetProxy = D75F59257D013E4DD3E087169C25598B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -540,9 +540,9 @@
 			};
 			name = Debug;
 		};
-		3C6AFD932470017B7A1CFEB91ACD005C /* Release */ = {
+		38F54AEA942FEB029B185CC7588F16DE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C15E6C277C88541121AAE6BF2FAB2C16 /* CrashHook.release.xcconfig */;
+			baseConfigurationReference = 6139B311A7A39B8AFBBC612814AED6EE /* CrashHook.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -570,6 +570,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		503403CB18FC188FD4F9F9B68058489B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C6F9189FCAB9517C7A4207F507399E /* CrashHook.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CrashHook/CrashHook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CrashHook/CrashHook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CrashHook/CrashHook.modulemap";
+				PRODUCT_MODULE_NAME = CrashHook;
+				PRODUCT_NAME = CrashHook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		87C0B4C836F194147133C17D52836E94 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -724,41 +754,12 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		EC7FBA04A833FBDF2EE3147A1CFEE93C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 707C648C553A8EFB2EEA15043D957C8B /* CrashHook.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CrashHook/CrashHook-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CrashHook/CrashHook-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CrashHook/CrashHook.modulemap";
-				PRODUCT_MODULE_NAME = CrashHook;
-				PRODUCT_NAME = CrashHook;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -768,6 +769,15 @@
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EDFBE035B179C3DE292884F6E85EB08 /* Build configuration list for PBXNativeTarget "CrashHook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503403CB18FC188FD4F9F9B68058489B /* Debug */,
+				38F54AEA942FEB029B185CC7588F16DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -786,15 +796,6 @@
 			buildConfigurations = (
 				87C0B4C836F194147133C17D52836E94 /* Debug */,
 				B6B1B6C7A0691B461BDCED14AB787DFD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F90CBDAC14983BA23FA0CD936349247F /* Build configuration list for PBXNativeTarget "CrashHook" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EC7FBA04A833FBDF2EE3147A1CFEE93C /* Debug */,
-				3C6AFD932470017B7A1CFEB91ACD005C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
