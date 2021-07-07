@@ -1,5 +1,5 @@
 PODS:
-  - CrashHook (1.0.3)
+  - CrashHook (1.0.5)
 
 DEPENDENCIES:
   - CrashHook (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CrashHook: 2caddf1e3f33258063ee76a5e536cfa29afc8ea7
+  CrashHook: ecbe73df538fcab3a3b9cb3281e44a6fd9c59fe9
 
 PODFILE CHECKSUM: e184fc8f913557d212b846b591834d489f81f664
 
