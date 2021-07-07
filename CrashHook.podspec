@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CrashHook'
-  s.version          = '1.0.8'
+  s.version          = '1.0.9'
   s.summary          = 'A short description of CrashHook.'
   s.homepage         = 'https://github.com/wangjian201314/CrashHook'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.source_files = "CrashHook/Classes/*.{h,m}"
   
-  # :commit => "a60f39d79495fd55c2bf96e4caa7f5b013b30735"
+  # :commit => "a60f39d79495fd55c2bf96e4caa7f5b013b30735" 第一次提交验证时s.source 路径疯狂报错，加上这个才行，后面去掉也可以了，诡异。。。
   # s.resource_bundles = {
   #   'CrashHook' => ['CrashHook/Assets/*.png']
   # }
